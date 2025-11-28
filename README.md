@@ -1,14 +1,22 @@
-# PYTHON PASSWORD GENERATOR
+# 🔒 Gerador de Senhas em Python
 
-## Objetivo
-Este projeto foi desenvolvido como um exercício prático do meu curso de programação. O objetivo é criar senhas seguras e aleatórias utilizando a biblioteca padrão do Python, consolidando o aprendizado de funções e o módulo `random`.
+## Sobre o Projeto
+Este é um script simples desenvolvido como prática de **Lógica de Programação** durante meus estudos de Python. 
 
-## O que o Projeto Faz
-O script solicita ao usuário o tamanho desejado para a senha e gera uma sequência de caracteres (letras maiúsculas, minúsculas, números e símbolos) totalmente aleatória.
+O objetivo é gerar senhas aleatórias e seguras, solicitando o comprimento desejado ao usuário e utilizando combinações de caracteres.
 
-## Tecnologias Utilizadas
-* Python 3
+## Tecnologias Que Usei
+* **Python 3**
 * Módulo nativo `random`
 
+
+## Como Executar
+1.  Certifique-se de ter o Python 3 instalado.
+2.  Baixe o arquivo `password_generator.py`.
+3.  Execute no terminal:
+    ```bash
+    python password_generator.py
+    ```
+
 ---
-*Este projeto está em constante evolução conforme avanço nos estudos.*
+*Status: Projeto Inicial. Próximos passos incluem adicionar validação de força da senha.*
