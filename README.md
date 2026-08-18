@@ -1,22 +1,24 @@
-# 🔒 Gerador de Senhas em Python
+# 🔒 Gerador de Senhas Seguras (CSPRNG)
 
 ## Sobre o Projeto
-Este é um script simples desenvolvido como prática de **Lógica de Programação** durante meus estudos de Python. 
+Script em Python desenvolvido para a geração de credenciais fortes e imprevisíveis, utilizando geradores de números pseudoaleatórios criptograficamente seguros (CSPRNG). 
 
-O objetivo é gerar senhas aleatórias e seguras, solicitando o comprimento desejado ao usuário e utilizando combinações de caracteres.
+Projetado originalmente como prática de **Lógica de Programação** e evoluído com foco em **Blue Team / Cibersegurança** na **XPZ Company**.
 
-## Tecnologias Que Usei
-* **Python 3**
-* Módulo nativo `random`
+## Funcionalidades
+- **Aleatoriedade Segura:** Uso do módulo `secrets` integrado ao CSPRNG do sistema operacional.
+- **Variedade de Caracteres:** Combinação automática de letras (maiúsculas e minúsculas), números e símbolos (`string`).
+- **Validação de Tamanho:** Regra de comprimento mínimo (pelo menos 8 caracteres) para prevenção de senhas fracas.
+- **Tratamento de Exceções:** Validação de entradas no terminal para prevenir falhas de execução.
 
+## Tecnologias Utilizadas
+- **Python 3**
+- `secrets` — Geração criptograficamente segura de escolhas aleatórias.
+- `string` — Conjuntos pré-definidos de caracteres ASCII.
 
 ## Como Executar
-1.  Certifique-se de ter o Python 3 instalado.
-2.  Baixe o arquivo `password_generator.py`.
-3.  Execute no terminal:
-    ```bash
-    python password_generator.py
-    ```
-
----
-*Status: Projeto Inicial. Próximos passos incluem adicionar validação de força da senha.*
+1. Certifique-se de ter o Python 3 instalado.
+2. Baixe o arquivo `password_generator.py`.
+3. Execute no terminal:
+   ```bash
+   py password_generator.py
